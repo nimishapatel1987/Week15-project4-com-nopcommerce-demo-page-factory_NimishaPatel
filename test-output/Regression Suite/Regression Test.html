@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 16:37:53 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35137 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.HomePageTest.verifyUserShouldNavigateToComputer()'><b>verifyUserShouldNavigateToComputer</b><br>Test class: com.nopcommerce.demo.testsuite.HomePageTest<br/>
+<a href="#Output-1569371800" onClick='toggleBox("Output-1569371800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1569371800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1569371800">
+verifyComputer[[ChromeDriver: chrome on WINDOWS (e767e1a9669f21c721d6aaef70633d6f)] -> xpath: //a[@href='/computers']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToComputerTue_Dec_13_16_38_05_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToComputerTue_Dec_13_16_38_05_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.demo.testsuite.HomePageTest@306e95ec</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.HomePageTest.verifyUserShouldNavigateToApparel()'><b>verifyUserShouldNavigateToApparel</b><br>Test class: com.nopcommerce.demo.testsuite.HomePageTest<br/>
+<a href="#Output-1601800698" onClick='toggleBox("Output-1601800698", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1601800698" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1601800698">
+verifyElectronics[[ChromeDriver: chrome on WINDOWS (4b2342e26ac06c446d69cc5aee386ab3)] -> xpath: //a[@href='/electronics']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToApparelTue_Dec_13_16_38_00_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToApparelTue_Dec_13_16_38_00_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.demo.testsuite.HomePageTest@306e95ec</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.HomePageTest.verifyUserShouldNavigateToElectronics()'><b>verifyUserShouldNavigateToElectronics</b><br>Test class: com.nopcommerce.demo.testsuite.HomePageTest<br/>
+<a href="#Output-132644461" onClick='toggleBox("Output-132644461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-132644461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-132644461">
+verifyElectronics[[ChromeDriver: chrome on WINDOWS (9957b2b73bf03347c51ca897c26458d8)] -> xpath: //a[@href='/electronics']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToElectronicsTue_Dec_13_16_38_10_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyUserShouldNavigateToElectronicsTue_Dec_13_16_38_10_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.demo.testsuite.HomePageTest@306e95ec</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerTest1.verifyProductAddedToShoppingCartSuccessFully()'><b>verifyProductAddedToShoppingCartSuccessFully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerTest1<br/>
+<a href="#Output-625232315" onClick='toggleBox("Output-625232315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-625232315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-625232315">
+clickOnComputer[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //a[@href='/computers']]<br/>
+clickOnDesktop[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //h2[@class='title']//a]<br/>
+getSelectByValue[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //select[@name='products-orderby']]<br/>
+getVerifyBuildYourOwn[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //h1[contains(text(),'Build your own computer')]]<br/>
+selectProcessorByValue[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //select[@id='product_attribute_1']]<br/>
+selectRamByValue[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //select[@id='product_attribute_2']]<br/>
+clickOnHDD400GB[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //label[text()='400 GB [+$100.00]']]<br/>
+clickOnOsVistaPremium[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //label[text()='Vista Premium [+$60.00]']]<br/>
+clickOnSoftwareTotalCommander[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='product_attribute_5_12']]<br/>
+clickOnAddToCartButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@id='add-to-cart-button-1']]<br/>
+verifyCaryMessage[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]<br/>
+closeMessageBar[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //body/div[@id='bar-notification']/div[1]/span[1]]<br/>
+mouseHoverOnElementShoppingCart[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //span[contains(text(),'Shopping cart')]]<br/>
+clickOnGoToCart[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@class='button-1 cart-button']]<br/>
+sendTextToQuantityField[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@value='1']]<br/>
+clickOnUpdateShoppingCartButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@id='updatecart']]<br/>
+clickOnCheckBoxIAgreeWithTermsAndCondition[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='termsofservice']]<br/>
+clickOnCheckOutButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@id='checkout']]<br/>
+clickOnCheckOutAsGuest[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[contains(text(),'Checkout as Guest')]]<br/>
+sendTextToFirstNameFieldPari[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: BillingNewAddress_FirstName]<br/>
+sendTextToLastNameFieldPatel[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: BillingNewAddress_LastName]<br/>
+sendTextToEmailFieldparipatel123@gmail.com[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: BillingNewAddress_Email]<br/>
+sendTextToCompanyField123456[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: BillingNewAddress_Company]<br/>
+sendTextToCityFieldCambridge[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='BillingNewAddress_City']]<br/>
+sendTextToAddressLine1Hilton Road[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> css selector: #BillingNewAddress_Address1]<br/>
+sendTextToAddressLine2Cambridge[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> css selector: #BillingNewAddress_Address2]<br/>
+sendTextToPostcodeCB4 3NB[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='BillingNewAddress_ZipPostalCode']]<br/>
+sendTextToPhoneNumberField01234567890[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='BillingNewAddress_PhoneNumber']]<br/>
+clickOnContinueButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[1]/div[2]/div[1]/button[4]]<br/>
+clickOnNextDayAirButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='shippingoption_1']]<br/>
+clickOnContinueButtonAgain[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[3]/div[2]/form[1]/div[2]/button[1]]<br/>
+clickOnCreditCardButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //input[@id='paymentmethod_1']]<br/>
+selectClickOnContinue1[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@class='button-1 payment-method-next-step-button']]<br/>
+selectMasterCardFromCreditCardDropdown[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //select[@id='CreditCardType']]<br/>
+sendTextTOCardHolderName[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: CardholderName]<br/>
+sendTextTOCardNumber[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: CardNumber]<br/>
+sendTextToCardCode[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> id: CardCode]<br/>
+clickOnContinueButton2[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@class='button-1 payment-info-next-step-button']]<br/>
+getVerifyText2[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //li[@class='shipping-method']//span[2]]<br/>
+clickOnConformButton[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //button[@class='button-1 confirm-order-next-step-button']]<br/>
+getVerifyText4[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //div[@class='page-title']/h1]<br/>
+getVerifyText5[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> xpath: //strong[contains(text(),'Your order has been successfully processed!')]]<br/>
+clickOnContinueButton3[[ChromeDriver: chrome on WINDOWS (8d4ea96a8b13890f1d9d8efb68ec6d7d)] -> css selector: div.master-wrapper-page:nth-child(6) div.master-wrapper-content div.master-column-wrapper div.center-1 div.page.checkout-page.order-completed-page div.page-body.checkout-data div.section.order-completed div.buttons > button.button-1.order-completed-continue-button]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Dec_13_16_38_27_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\Nimisha\Week15-project4-com-nopcommerce.demo-page-factory_NimishaPatel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Dec_13_16_38_27_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.nopcommerce.demo.testsuite.ComputerTest1@55634720</td></tr>
+</table><p>
+</body>
+</html>
